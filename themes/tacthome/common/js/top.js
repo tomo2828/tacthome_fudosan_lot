@@ -1,12 +1,15 @@
 $(function () {
   var nav = $('nav');
   var fixnav = $('#fix_nav');
+  var main = $('main');
+  var isLotMyselect = $('body').hasClass('lot_2026') && main.hasClass('top');
   var navH = nav.outerHeight() || 0;
   var navTop = 0;
 
   function updateNav() {
     navH = nav.outerHeight() || 0;
-    $('main').css('padding-top', navH);
+    var mainPadding = isLotMyselect && window.matchMedia('(max-width: 750px)').matches ? 0 : navH;
+    main.css('padding-top', mainPadding);
     if (nav.length) {
       navTop = nav.offset().top;
       updateScroll();

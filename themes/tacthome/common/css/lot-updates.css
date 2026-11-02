@@ -195,7 +195,7 @@
 }
 @media screen and (max-width: 750px) {
   .lot_2026 #select .color_slider_prev {
-    left: -34px;
+    left: -28px;
     width: 32px;
   }
 }
@@ -209,7 +209,7 @@
 }
 @media screen and (max-width: 750px) {
   .lot_2026 #select .color_slider_next {
-    right: -34px;
+    right: -28px;
     width: 32px;
   }
 }
@@ -282,6 +282,13 @@
 }
 .lot_2026 #catalog.lot_catalog ul.catalog_list {
   margin-top: 30px;
+}
+@media screen and (max-width: 750px) {
+  .lot_2026 #catalog.lot_catalog ul.catalog_list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 .lot_2026 #catalog.lot_catalog ul.catalog_list li {
   width: 230px;
