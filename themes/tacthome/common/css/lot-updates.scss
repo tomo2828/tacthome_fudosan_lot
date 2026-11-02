@@ -46,12 +46,33 @@ $breakpoints: (
       }
     }
 
-    .lot_select_name {
+    .lot_title_main {
+      font-size: 100%;
       width: fit-content;
+      max-width: 100%;
       margin: 0 auto;
+    }
+
+    .lot_select_name {
+      display: flex;
+      align-items: center;
+      width: 100%;
       padding-top: 0.3em;
+      padding-right: 0.3em;
       font-size: 60%;
       letter-spacing: 0.2em;
+      white-space: nowrap;
+      @include media(mb) {
+        padding-right: 0;
+      }
+
+      &::before {
+        flex: 1;
+        height: 1px;
+        margin-right: 1.3em;
+        background: rgba(255, 255, 255, 0.7);
+        content: "";
+      }
     }
   }
 
@@ -139,8 +160,18 @@ $breakpoints: (
       touch-action: pan-y;
     }
 
+    .color_slider_viewport {
+      overflow: hidden;
+    }
+
+    .color_slider_track {
+      display: flex;
+      will-change: transform;
+    }
+
     .color_slide {
-      animation: lot-slide-in 0.4s ease;
+      flex: 0 0 100%;
+      min-width: 0;
 
       &[hidden] {
         display: none;
@@ -150,10 +181,6 @@ $breakpoints: (
         display: block;
         width: 100%;
         height: auto;
-      }
-
-      @media (prefers-reduced-motion: reduce) {
-        animation: none;
       }
     }
 
@@ -252,6 +279,14 @@ $breakpoints: (
 
   #info ul.info_list {
     justify-content: center;
+
+    li {
+      width: 67.5%;
+      max-width: 690px;
+      @include media(mb) {
+        width: 100%;
+      }
+    }
   }
 
   #catalog.lot_catalog ul.catalog_list {
@@ -341,9 +376,4 @@ $breakpoints: (
       line-height: 1.5;
     }
   }
-}
-
-@keyframes lot-slide-in {
-  from { opacity: 0.3; }
-  to { opacity: 1; }
 }

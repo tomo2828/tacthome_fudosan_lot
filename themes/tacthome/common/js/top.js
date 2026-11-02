@@ -50,16 +50,43 @@ $(function () {
   $('.color_slider').each(function () {
     var slider = $(this);
     var slides = slider.find('.color_slide');
+    var track = slider.find('.color_slider_track');
     var dots = slider.find('.color_slider_dots button');
     var current = 0;
+    var animating = false;
+    var transitionTimer = null;
     var touchStart = null;
+    var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+    slides.prop('hidden', false).attr('aria-hidden', 'true').eq(0).attr('aria-hidden', 'false');
+    track.prepend(slides.last().clone().attr('aria-hidden', 'true'));
+    track.append(slides.first().clone().attr('aria-hidden', 'true'));
+    track.css({ transition: 'none', transform: 'translateX(-100%)' });
+
+    function finishSlide() {
+      window.clearTimeout(transitionTimer);
+      track.css({ transition: 'none', transform: 'translateX(' + (-(current + 1) * 100) + '%)' });
+      animating = false;
+    }
 
     function showSlide(index) {
+      if (animating || index === current) return;
       current = (index + slides.length) % slides.length;
-      slides.prop('hidden', true).eq(current).prop('hidden', false);
+      slides.attr('aria-hidden', 'true').eq(current).attr('aria-hidden', 'false');
       dots.attr('aria-pressed', 'false').eq(current).attr('aria-pressed', 'true');
       slider.find('.color_slider_status').text((current + 1) + ' / ' + slides.length);
+      if (reduceMotion.matches) {
+        finishSlide();
+        return;
+      }
+      animating = true;
+      track.css({ transition: 'transform 500ms ease', transform: 'translateX(' + (-(index + 1) * 100) + '%)' });
+      transitionTimer = window.setTimeout(finishSlide, 550);
     }
+
+    track.on('transitionend', function (event) {
+      if (event.target === track[0] && /transform$/.test(event.originalEvent.propertyName)) finishSlide();
+    });
 
     slider.find('.color_slider_prev').on('click', function () { showSlide(current - 1); });
     slider.find('.color_slider_next').on('click', function () { showSlide(current + 1); });

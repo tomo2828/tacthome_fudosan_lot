@@ -20,29 +20,72 @@
 
   <div class="inner">
     <div class="select_img01">
-      <img class="pc" src="<?php echo esc_url(get_template_directory_uri()); ?>/common/images/lot-2026/floor-plan.webp" width="1028" height="413" alt="間取りの変更例。洋室をなくしてLDKを広げ、パントリー、ワイドな洗面室、シューズインクローゼットを追加。" loading="lazy">
+      <img
+        class="pc"
+        src="<?php echo esc_url(get_template_directory_uri()); ?>/common/images/lot-2026/floor-plan.webp?ver=2"
+        width="1028"
+        height="413"
+        alt="間取りの変更例。洋室をなくしてLDKを広げ、パントリー、ワイドな洗面室、シューズインクローゼットを追加。"
+        loading="lazy"
+      >
       <div class="floor_plan_mobile sp">
         <figure>
           <figcaption class="ff_smin blue">Before</figcaption>
-          <img src="<?php echo esc_url(get_template_directory_uri()); ?>/common/images/lot-2026/floor-plan-before.webp" alt="変更前：洋室5帖とLDK17帖の間取り" width="330" height="344" loading="lazy">
+          <img
+            src="<?php echo esc_url(get_template_directory_uri()); ?>/common/images/lot-2026/floor-plan-before.webp?ver=2"
+            alt="変更前：洋室5帖とLDK17帖の間取り"
+            width="330"
+            height="344"
+            loading="lazy"
+          >
         </figure>
         <figure>
           <figcaption class="ff_smin blue">After</figcaption>
-          <img src="<?php echo esc_url(get_template_directory_uri()); ?>/common/images/lot-2026/floor-plan-after.webp" alt="変更後：LDK19.9帖と充実した収納の間取り" width="335" height="344" loading="lazy">
+          <img
+            src="<?php echo esc_url(get_template_directory_uri()); ?>/common/images/lot-2026/floor-plan-after.webp?ver=2"
+            alt="変更後：LDK19.9帖と充実した収納の間取り"
+            width="335"
+            height="344"
+            loading="lazy"
+          >
         </figure>
       </div>
     </div>
     <ul class="select_list">
       <li>
-        <div class="img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/common/images/lot-2026/plan-shoes.webp" alt="シューズインクローゼット" width="322" height="181" loading="lazy"></div>
+        <div class="img">
+          <img
+            src="<?php echo esc_url(get_template_directory_uri()); ?>/common/images/lot-2026/plan-shoes.webp?ver=2"
+            alt="シューズインクローゼット"
+            width="322"
+            height="181"
+            loading="lazy"
+          >
+        </div>
         <p class="ttl ff_smin blue">収納力豊富な<br>シューズインクローゼット</p>
       </li>
       <li>
-        <div class="img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/common/images/lot-2026/plan-pantry.webp" alt="キッチン横のパントリー" width="322" height="181" loading="lazy"></div>
+        <div class="img">
+          <img
+            src="<?php echo esc_url(get_template_directory_uri()); ?>/common/images/lot-2026/plan-pantry.webp?ver=2"
+            alt="キッチン横のパントリー"
+            width="322"
+            height="181"
+            loading="lazy"
+          >
+        </div>
         <p class="ttl ff_smin blue">生活空間を有効活用できる<br>キッチン横のパントリー</p>
       </li>
       <li>
-        <div class="img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/common/images/lot-2026/plan-washroom.webp" alt="ワイドな洗面室" width="321" height="181" loading="lazy"></div>
+        <div class="img">
+          <img
+            src="<?php echo esc_url(get_template_directory_uri()); ?>/common/images/lot-2026/plan-washroom.webp?ver=2"
+            alt="ワイドな洗面室"
+            width="321"
+            height="181"
+            loading="lazy"
+          >
+        </div>
         <p class="ttl ff_smin blue">広々空間で家事効率もアップする<br>ワイドな洗面室</p>
       </li>
     </ul>
@@ -61,12 +104,26 @@
           <div class="box color_slider" role="region" aria-roledescription="カルーセル" aria-labelledby="<?php echo esc_attr($color_id); ?>-title">
             <h4 id="<?php echo esc_attr($color_id); ?>-title" class="ff_smin"><span><?php echo esc_html($color_group[0]); ?></span><?php echo esc_html($color_group[1]); ?></h4>
             <div class="color_slider_stage">
-              <div class="color_slider_track" id="<?php echo esc_attr($color_id); ?>-slides">
-                <?php for ($slide = 1; $slide <= 5; $slide++) : ?>
-                  <div class="color_slide" role="group" aria-roledescription="スライド" aria-label="<?php echo esc_attr($slide . ' / 5'); ?>"<?php if ($slide !== 1) : ?> hidden<?php endif; ?>>
-                    <img src="<?php echo esc_url(get_template_directory_uri() . '/common/images/lot-2026/' . $color_group[2] . '_0' . $slide . '.webp'); ?>" alt="<?php echo esc_attr($color_group[1] . 'のカラーコーディネート例' . $slide); ?>" width="916" height="466" loading="lazy" draggable="false">
-                  </div>
-                <?php endfor; ?>
+              <div class="color_slider_viewport">
+                <div class="color_slider_track" id="<?php echo esc_attr($color_id); ?>-slides">
+                  <?php for ($slide = 1; $slide <= 5; $slide++) :
+                    $color_image = get_template_directory_uri() . '/common/images/lot-2026/' . $color_group[2] . '_0' . $slide . '.webp';
+                    if ($color_id === 'interior' && $slide === 1) {
+                      $color_image .= '?ver=2';
+                    }
+                  ?>
+                    <div class="color_slide" role="group" aria-roledescription="スライド" aria-label="<?php echo esc_attr($slide . ' / 5'); ?>"<?php if ($slide !== 1) : ?> hidden<?php endif; ?>>
+                      <img
+                        src="<?php echo esc_url($color_image); ?>"
+                        alt="<?php echo esc_attr($color_group[1] . 'のカラーコーディネート例' . $slide); ?>"
+                        width="916"
+                        height="466"
+                        loading="lazy"
+                        draggable="false"
+                      >
+                    </div>
+                  <?php endfor; ?>
+                </div>
               </div>
               <button class="color_slider_prev" type="button" aria-label="前の<?php echo esc_attr($color_group[1]); ?>" aria-controls="<?php echo esc_attr($color_id); ?>-slides"></button>
               <button class="color_slider_next" type="button" aria-label="次の<?php echo esc_attr($color_group[1]); ?>" aria-controls="<?php echo esc_attr($color_id); ?>-slides"></button>

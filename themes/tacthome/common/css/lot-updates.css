@@ -33,14 +33,41 @@
     letter-spacing: 0.08em;
   }
 }
-.lot_2026 #mv .lot_title .lot_select_name {
+.lot_2026 #mv .lot_title .lot_title_main {
+  font-size: 100%;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  max-width: 100%;
   margin: 0 auto;
+}
+.lot_2026 #mv .lot_title .lot_select_name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
   padding-top: 0.3em;
+  padding-right: 0.3em;
   font-size: 60%;
   letter-spacing: 0.2em;
+  white-space: nowrap;
+}
+@media screen and (max-width: 750px) {
+  .lot_2026 #mv .lot_title .lot_select_name {
+    padding-right: 0;
+  }
+}
+.lot_2026 #mv .lot_title .lot_select_name::before {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 1px;
+  margin-right: 1.3em;
+  background: rgba(255, 255, 255, 0.7);
+  content: "";
 }
 .lot_2026 nav ul,
 .lot_2026 #fix_nav ul {
@@ -115,9 +142,20 @@
   -ms-touch-action: pan-y;
       touch-action: pan-y;
 }
+.lot_2026 #select .color_slider_viewport {
+  overflow: hidden;
+}
+.lot_2026 #select .color_slider_track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  will-change: transform;
+}
 .lot_2026 #select .color_slide {
-  -webkit-animation: lot-slide-in 0.4s ease;
-          animation: lot-slide-in 0.4s ease;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  min-width: 0;
 }
 .lot_2026 #select .color_slide[hidden] {
   display: none;
@@ -126,12 +164,6 @@
   display: block;
   width: 100%;
   height: auto;
-}
-@media (prefers-reduced-motion: reduce) {
-  .lot_2026 #select .color_slide {
-    -webkit-animation: none;
-            animation: none;
-  }
 }
 .lot_2026 #select .color_slider_prev,
 .lot_2026 #select .color_slider_next {
@@ -239,6 +271,15 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
+.lot_2026 #info ul.info_list li {
+  width: 67.5%;
+  max-width: 690px;
+}
+@media screen and (max-width: 750px) {
+  .lot_2026 #info ul.info_list li {
+    width: 100%;
+  }
+}
 .lot_2026 #catalog.lot_catalog ul.catalog_list {
   margin-top: 30px;
 }
@@ -321,22 +362,4 @@
   font-size: 80%;
   font-weight: 600;
   line-height: 1.5;
-}
-
-@-webkit-keyframes lot-slide-in {
-  from {
-    opacity: 0.3;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes lot-slide-in {
-  from {
-    opacity: 0.3;
-  }
-  to {
-    opacity: 1;
-  }
 }

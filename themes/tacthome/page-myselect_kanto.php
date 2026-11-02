@@ -75,8 +75,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                     <h1 class="ff_smin lot_title">
                         <span class="lot_catch">わたしらしさを、この住まいに</span>
-                        <strong>建築条件付売地</strong>
-                        <span class="lot_select_name">MY SELECT</span>
+                        <span class="lot_title_main">
+                            <strong>建築条件付売地</strong>
+                            <span class="lot_select_name">MY SELECT</span>
+                        </span>
                     </h1>
                 </div>
 
