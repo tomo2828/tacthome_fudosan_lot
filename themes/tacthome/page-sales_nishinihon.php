@@ -198,12 +198,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                 <section id="info">
                     <div class="inner">
-                        <p class="lead ff_smin blue pc mt0">タクトホームの建築条件付売地は<br>販売会社様にストレスをかけない成約率70％超のサポートシステム！<br>詳しくは下記をご覧ください。</p>
+                        <p class="lead ff_smin blue sp">タクトホームの建築条件付売地は<br>販売会社様にストレスをかけない<br>成約率70％超のサポートシステム！<br>詳しくは下記をご覧ください。</p>
+                        <ul class="info_list">
+                            <li>
+                                <h2 class="ff_smin blue">建築条件付売地販売も対応します！<br>ぜひご紹介ください</h2>
+                                <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/common/images/property/info_img01.jpg" alt=""></div>
+                                <p class="ttl ff_smin blue">大好評のデザイン住宅を<br>お好みの間取りでお届けします！</p>
+                            </li>
+                        </ul>
+                        <p class="lead ff_smin blue pc">タクトホームの建築条件付売地は<br>販売会社様にストレスをかけない成約率70％超のサポートシステム！<br>詳しくは下記をご覧ください。</p>
                         <p class="btn">
                             <a href="/lot/nishinihon_myselect/" target="_blank">
                                 <picture>
-                                    <source media="(min-width:751px)" srcset="<?php echo get_template_directory_uri(); ?>/common/images/sales_nagoya_info_bnr.jpg">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/common/images/sales_nagoya_info_bnr-sp.jpg" alt="販売会社様専用 タクトホームの分譲土地付売地 会員限定サイト">
+                                    <source media="(min-width:751px)" srcset="<?php echo get_template_directory_uri(); ?>/common/images/property/info_bnr.jpg">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/common/images/property/info_bnr-sp.jpg" alt="販売会社様専用 タクトホームの分譲土地付売地 会員限定サイト">
                                 </picture>
                             </a>
                         </p>

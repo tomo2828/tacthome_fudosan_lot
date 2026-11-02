@@ -13,20 +13,25 @@
     </div>
     <h3 class="ff_smin">注文住宅 カタログダウンロード</h3>
     <ul class="customhome_catalog_list">
-      <li>
-        <div class="img">
-          <img
-            src="<?php echo esc_url(get_template_directory_uri()); ?>/common/images/lot-2026/catalog-order.webp"
-            width="227" height="323" alt="グラファーレの注文住宅 総合カタログ" loading="lazy"
-          >
-        </div>
-        <p class="name">グラファーレの注文住宅<br>総合カタログ</p>
-        <?php if (!empty($group_field_customhome2['pdf1'])) : ?>
-          <p class="btn">
-            <a href="<?php echo esc_url($group_field_customhome2['pdf1']); ?>" target="_blank" rel="noopener" class="pdf gtm-catalog-download"><span>ダウンロードする</span></a>
-          </p>
+      <?php for ($i = 1; $i <= 2; $i++) : ?>
+        <?php if (!empty($group_field_customhome2['img' . $i])) : ?>
+          <li>
+            <div class="img">
+              <img
+                src="<?php echo esc_url($group_field_customhome2['img' . $i]); ?>"
+                width="227" height="323" alt="" loading="lazy">
+            </div>
+            <?php if (!empty($group_field_customhome2['copy' . $i])) : ?>
+              <p class="name"><?php echo wp_kses($group_field_customhome2['copy' . $i], array('br' => array())); ?></p>
+            <?php endif; ?>
+            <?php if (!empty($group_field_customhome2['pdf' . $i])) : ?>
+              <p class="btn">
+                <a href="<?php echo esc_url($group_field_customhome2['pdf' . $i]); ?>" target="_blank" rel="noopener" class="pdf gtm-catalog-download"><span>ダウンロードする</span></a>
+              </p>
+            <?php endif; ?>
+          </li>
         <?php endif; ?>
-      </li>
+      <?php endfor; ?>
     </ul>
   </div>
 </section>

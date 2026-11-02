@@ -291,6 +291,7 @@ $breakpoints: (
 
   #catalog.lot_catalog ul.catalog_list {
     margin-top: 30px;
+    gap: 30px;
     @include media(mb) {
       justify-content: center;
     }
@@ -328,6 +329,7 @@ $breakpoints: (
     ul.customhome_catalog_list {
       justify-content: center;
       width: 100%;
+      gap: 30px;
 
       li {
         width: 230px;
