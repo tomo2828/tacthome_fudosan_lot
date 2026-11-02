@@ -44,7 +44,7 @@ while (have_posts()) : the_post();
         get_header();
     ?>
 
-        <body id="property_page">
+        <body id="property_page" class="lot_2026">
 
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T59RR54"
@@ -168,7 +168,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                 <section id="info">
                     <div class="inner">
-                        <p class="lead ff_smin blue pc mt0">タクトホームの分譲土地付住宅は<br>販売会社様にストレスをかけない成約率70％超のサポートシステム！<br>詳しくは下記をご覧ください。</p>
+                        <p class="lead ff_smin blue pc mt0">タクトホームの建築条件付売地は<br>販売会社様にストレスをかけない成約率70％超のサポートシステム！<br>詳しくは下記をご覧ください。</p>
                         <p class="btn">
                             <a href="/lot/kitanihon_myselect/" target="_blank">
                                 <picture>
@@ -180,29 +180,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                 </section>
 
-                <section id="brand">
-                    <div class="inner">
-                        <h2 class="ff_smin blue">グラファーレブランド</h2>
-                        <ul class="brand_list">
-                            <li>
-                                <div class="img"><a href="https://www.tacthome.co.jp/lineup/grafare/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/common/images/brand_bnr01.jpg" alt="新築分譲住宅"></a></div>
-                                <p class="name"><a href="https://www.tacthome.co.jp/lineup/grafare/" target="_blank" class="blank"><span>新築分譲住宅</span></a></p>
-                            </li>
-                            <li>
-                                <div class="img"><a href="https://www.tacthome.co.jp/lineup/order/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/common/images/brand_bnr02.jpg" alt="注文住宅"></a></div>
-                                <p class="name"><a href="https://www.tacthome.co.jp/lineup/order/" target="_blank" class="blank"><span>注文住宅</span></a></p>
-                            </li>
-                            <li>
-                                <div class="img"><a href="https://www.tacthome.co.jp/lineup/MySelect-index/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/common/images/brand_bnr03.jpg" alt="マイセレクト（建築条件付売地）"></a></div>
-                                <p class="name"><a href="https://www.tacthome.co.jp/lineup/MySelect-index/" target="_blank" class="blank"><span>マイセレクト<span class="fs80">（建築条件付売地）</span></span></a></p>
-                            </li>
-                            <!-- <li>
+                <?php get_template_part('parts-lot-brand'); ?>
+<!-- <li>
                                 <div class="img"><a href="https://www.tacthome.co.jp/saisei/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/common/images/brand_bnr04.jpg" alt="認定再生住宅"></a></div>
                                 <p class="name"><a href="https://www.tacthome.co.jp/saisei/" target="_blank" class="blank"><span>認定再生住宅</span></a></p>
                             </li> -->
-                        </ul>
-                    </div>
-                </section>
 
                 <div id="pagetop"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/common/images/btn_pagetop.png" alt="ページトップ"></a></div>
             </main>

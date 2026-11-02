@@ -44,7 +44,7 @@ while (have_posts()) : the_post();
         get_header();
     ?>
 
-        <body>
+        <body class="lot_2026">
 
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T59RR54"
@@ -73,7 +73,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <a href="https://www.tacthome.co.jp/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/common/images/logo_02.png" alt="タクトホーム株式会社"></a>
                         </div>
                     </div>
-                    <h1 class="ff_smin"><span>分譲土地付住宅</span><br>～建築条件付売地・新築注文住宅～</h1>
+                    <h1 class="ff_smin lot_title">
+                        <span class="lot_catch">わたしらしさを、この住まいに</span>
+                        <strong>建築条件付売地</strong>
+                        <span class="lot_select_name">MY SELECT</span>
+                    </h1>
                 </div>
 
                 <div class="ad-con02">
@@ -88,7 +92,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <li><a href="#property">未公開物件情報</a></li>
                         <li><a href="#select">間取り選び<br>カラーセレクト</a></li>
                         <li><a href="#design">デザイン・仕様</a></li>
-                        <li><a href="#modelhouse">モデルハウス<br>ショールーム</a></li>
+
                     </ul>
                 </div>
             </nav>
@@ -100,20 +104,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <li><a href="#property">未公開物件情報</a></li>
                         <li><a href="#select">間取り選び<br>カラーセレクト</a></li>
                         <li><a href="#design">デザイン・仕様</a></li>
-                        <li><a href="#modelhouse">モデルハウス<br>ショールーム</a></li>
+
                     </ul>
                 </div>
             </div>
             <main class="top">
                 <section id="reason">
                     <div class="inner">
-                        <h2 class="ff_smin blue">「分譲土地付住宅」と言えばタクトホーム<br>多忙な販売会社様から支持される理由</h2>
+                        <h2 class="ff_smin blue">タクトホームの「建築条件付売地 MY SELECT」が<br>多忙な販売会社様から支持される理由</h2>
 
                         <div class="reason_sec1">
                             <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/common/images/reason_img01.jpg" alt=""></div>
                             <div class="box">
                                 <h3 class="ff_smin blue">販売会社様にストレスをかけない<br>成約率70%超のサポートシステム</h3>
-                                <p class="note">タクトホームの分譲土地付住宅では、年間5,000棟以上提案される豊富な参考プランの中からベストなプランを選定。専任のアドバイザーがショールームで丁寧にご案内するため、プレゼンテーション以降のご成約率は70％を超えます。もちろん、決済後もしっかりとサポートするので、販売会社様のお手を煩わせることなく、お客様にご満足いただいております。</p>
+                                <p class="note">タクトホームの建築条件付売地 MY SELECTでは、年間6,000棟以上提案される豊富な参考プランの中からベストなプランを選定。専任のアドバイザーがショールームで丁寧にご案内するため、プレゼンテーション以降のご成約率は70％を超えます。もちろん、決済後もしっかりとサポートするので、販売会社様のお手を煩わせることなく、お客様にご満足いただけます。</p>
                             </div>
                         </div>
                     </div>
@@ -130,7 +134,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <li>
                                     <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/common/images/reason_img03.jpg" alt="STEP2"></div>
                                     <p class="ttl ff_smin blue">専任スタッフによる<br>成約率70％超のプレゼンテーション</p>
-                                    <p class="note">お客様へのプレゼンは当社スタッフにお任せください。ご同席いただかなくても問題ございません。</p>
+                                    <p class="note">お客様へのプレゼンは当社スタッフにお任せください。ご同席なくても問題ございません。</p>
                                 </li>
                                 <li>
                                     <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/common/images/reason_img04.jpg" alt="STEP3"></div>
@@ -149,7 +153,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <p class="property_note">タクトホームでは、販売会社様にいち早く最新の物件をご紹介いただけるよう、<br>決済前の未公開物件も積極的にご案内しております。</p>
 
                         <div class="property_area">
-                            <h3 class="ff_smin">未公開 分譲土地付住宅をエリアから選ぶ</h3>
+                            <h3 class="ff_smin">未公開 建築条件付売地をエリアから選ぶ</h3>
                             <div class="flex">
                                 <?php
                                 $group_field = get_field('kanto_mikoukai');
@@ -420,7 +424,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                 <section id="myselect">
                     <div class="inner">
-                        <h2 class="ff_smin blue">タクトホームの分譲土地付住宅<br>マイセレクトの強み</h2>
+                        <h2 class="ff_smin blue">タクトホームの<br>「建築条件付売地 MY SELECT」の強み</h2>
                         <ul class="myselect_list">
                             <li>
                                 <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/common/images/myselect_img01.jpg" alt=""></div>
@@ -456,132 +460,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                 </section>
 
-                <section id="select">
-                    <div class="inner">
-                        <h2 class="ff_smin blue">間取り選び</h2>
-                    </div>
+                <?php get_template_part('parts-lot-select'); ?>
 
-                    <div class="select_sec1">
-                        <div class="inner">
-                            <div class="box">
-                                <h3 class="ff_smin">自由度の高いプラン提案</h3>
-                                <p class="note">グラファーレの分譲土地付住宅・マイセレクトは、厳選された基本プランをベースに、ご家族のこだわりやライフスタイルに合せてカスタマイズできます。外観のデザインはそのままに、間仕切り壁やプランをカスタムすることでより自分らしい住まいが実現可能です。</p>
-                            </div>
-                            <div class="img">
-                                <picture>
-                                    <source media="(min-width:751px)" srcset="<?php echo get_template_directory_uri(); ?>/common/images/myselect_madori_img01.png">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/common/images/myselect_madori_img01-sp.png" alt="">
-                                </picture>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="inner">
-                        <div class="select_img01">
-                            <picture>
-                                <source media="(min-width:751px)" srcset="<?php echo get_template_directory_uri(); ?>/common/images/kanto_myselect_madori_img02.png">
-                                <img src="<?php echo get_template_directory_uri(); ?>/common/images/kanto_myselect_madori_img02-sp.png" alt="">
-                            </picture>
-                        </div>
-                        <ul class="select_list">
-                            <li>
-                                <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/common/images/kanto_myselect_madori_img03.jpg" alt=""></div>
-                                <p class="ttl ff_smin blue">広々ワークトップのキッチン</p>
-                                <p class="note">広いワークトップカウンターはテーブルや作業スペースとして、多目的に使えます。</p>
-                            </li>
-                            <li>
-                                <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/common/images/kanto_myselect_madori_img04.jpg" alt=""></div>
-                                <p class="ttl ff_smin blue">アイランド型で楽しくおしゃれに</p>
-                                <p class="note">テーブル一体型だから配膳・片付けもスムーズ。<br>
-                                    家族や友達とキッチンを囲む時間が楽しくなります。</p>
-                            </li>
-                            <li>
-                                <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/common/images/kanto_myselect_madori_img05.jpg" alt=""></div>
-                                <p class="ttl ff_smin blue">リビングに生まれるゆとりの空間</p>
-                                <p class="note">キッチンダイニングが一体化することで、<br>
-                                    リビングスペースをゆったり取ることができます。</p>
-                            </li>
-                        </ul>
-
-                        <div class="color_select">
-                            <h3 class="ff_smin">カラーセレクト</h3>
-                            <p class="lead">外装／内装のデザイン・カラーをお好みにコーディネートできます。<br>専任デザイナーが厳選したコーディネートパターンからお選びいただくことにより、<br class="pc">自由な組み合わせとまとまりのある、ご家族だけの住まいをスマートに実現できます。</p>
-                            <div class="color_select_box">
-                                <div class="box">
-                                    <h4 class="ff_smin"><span>Exterior</span>6つのファサードデザイン</h4>
-                                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/common/images/select_color_img01.jpg" alt=""></div>
-                                </div>
-                                <div class="box">
-                                    <h4 class="ff_smin"><span>Interior</span>4つのインテリアデザイン</h4>
-                                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/common/images/select_color_img02.jpg" alt=""></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section id="customhome">
-                    <div class="inner">
-                        <?php
-                        $group_field_customhome1 = get_field('customhome1');
-                        ?>
-                        <div class="flex">
-                            <div class="img pc">
-                                <img src="<?php echo $group_field_customhome1['img']; ?>" alt="">
-                                <p class="btn"><a href="<?php echo $group_field_customhome1['pdf']; ?>" target="_blank" class="pdf gtm-catalog-download"><span>カタログをダウンロードする</span></a></p>
-                            </div>
-                            <div class="box">
-                                <h2 class="ff_smin">分譲土地付住宅をご検討のお客様限定<br><span>+60万円でフリープランの注文住宅</span></h2>
-                                <p class="lead">分譲土地付住宅をご検討のお客様へ、追加費用60万円でフリープランの注文住宅への変更を承ります。</p>
-
-                                <h3 class="ff_smin">すべて価格に含まれます。</h3>
-                                <ul class="customhome_list">
-                                    <li>
-                                        <dl>
-                                            <dt><img src="<?php echo get_template_directory_uri(); ?>/common/images/customhome_img01.jpg" alt=""></dt>
-                                            <dd>
-                                                <p class="ttl ff_smin">土地費用</p>
-                                                <p class="note">建築条件付売地でご提供しています。</p>
-                                            </dd>
-                                        </dl>
-                                    </li>
-                                    <li>
-                                        <dl>
-                                            <dt><img src="<?php echo get_template_directory_uri(); ?>/common/images/customhome_img02.jpg" alt=""></dt>
-                                            <dd>
-                                                <p class="ttl ff_smin">造成費用</p>
-                                                <p class="note">建築前の造成費用が含まれます。<br><span class="fs80">※地盤関係（改良）費も含まれます。</span></p>
-                                            </dd>
-                                        </dl>
-                                    </li>
-                                    <li>
-                                        <dl>
-                                            <dt><img src="<?php echo get_template_directory_uri(); ?>/common/images/customhome_img03.jpg" alt=""></dt>
-                                            <dd>
-                                                <p class="ttl ff_smin">建物費用</p>
-                                                <p class="note">工事代金、材料費などの建築に関わる費用が含まれます。</p>
-                                            </dd>
-                                        </dl>
-                                    </li>
-                                    <li>
-                                        <dl>
-                                            <dt><img src="<?php echo get_template_directory_uri(); ?>/common/images/customhome_img04.jpg" alt=""></dt>
-                                            <dd>
-                                                <p class="ttl ff_smin">外構費用</p>
-                                                <p class="note">ブロックやカースペース、ポストなど、住宅を彩る外構費も含まれます。</p>
-                                            </dd>
-                                        </dl>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="img sp">
-                        <img src="<?php echo $group_field_customhome1['img']; ?>" alt="">
-                        <p class="btn"><a href="<?php echo $group_field_customhome1['pdf']; ?>" target="_blank" class="pdf gtm-catalog-download"><span>カタログをダウンロードする</span></a></p>
-                    </div>
-                </section>
 
                 <section id="design">
                     <div class="inner">
@@ -592,109 +473,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/common/images/design_bg.jpg" alt=""></div>
                             <div class="box">
                                 <h3 class="ff_smin blue">GRAFARE<br>DESIGN QUALITY</h3>
-                                <p class="note">グラファーレが選ばれる理由の一つに、建物のデザイン性が挙げられます。累計59,000棟に及ぶ住宅建築実績から、常に機能性や意匠性に優れたデザイン性の高い住宅デザインを追求してきました。上質な部材と熟練の技術で磨き上げられたグラファーレのデザインにご期待ください。</p>
+                                <p class="note">グラファーレが選ばれる理由の一つに、建物のデザイン性が挙げられます。累計70,000棟に及ぶ住宅建築実績から、常に機能性や意匠性に優れたデザイン性の高い住宅デザインを追求してきました。上質な部材と熟練の技術で磨き上げられたグラファーレのデザインにご期待ください。</p>
                                 <p class="btn"><a href="https://www.tacthome.co.jp/grafare/gallery/" target="_blank" class="blank"><span>施工例ギャラリーを見る</span></a></p>
                             </div>
                         </div>
                     </div>
                 </section>
 
-                <section id="modelhouse">
-                    <div class="inner">
-                        <h2 class="ff_smin blue">モデルハウス・ショールーム</h2>
-                        <div class="modelhouse_box">
-                            <div class="box">
-                                <h3 class="ff_smin blue">各地の開発現場で<br>現地モデルハウスを公開中</h3>
-                                <p class="note">販売現地各所では随時モデルハウスを建築・公開しています。グラファーレの品質を目で見て、触れて、体感いただける他、家具をしつらえた実際の建物をご内覧いただくことで、よりリアルな暮らしをイメージいただけます。</p>
-                                <p class="btn"><a href="https://www.tacthome.co.jp/modelhouse/" target="_blank" class="blank"><span>グラファーレのモデルハウス紹介ページ</span></a></p>
-                            </div>
-                            <div class="img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/common/images/modelhouse_map.png" alt="モデルハウス・ショールーム">
-
-                                <?php
-                                $group_field_modelhouse = get_field('kanto_modelhouse');
-                                ?>
-
-                                <div class="map">
-                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 535.48 340.68">
-                                        <defs>
-                                            <pattern id="_map_bg01" data-name="map_bg01" x="0" y="0" width="9.52" height="9.52" patternTransform="translate(-5717.98 -5727.75) scale(.28)" patternUnits="userSpaceOnUse" viewBox="0 0 9.52 9.52">
-                                                <g>
-                                                    <rect class="map_bg01_2" width="9.52" height="9.52" />
-                                                    <rect class="map_bg01_4" width="9.52" height="9.52" />
-                                                    <circle class="map_bg01_3" cx="4.76" cy="4.76" r="2.5" />
-                                                </g>
-                                            </pattern>
-                                            <pattern id="_map_bg02" data-name="map_bg02" x="0" y="0" width="9.52" height="9.52" patternTransform="translate(-5717.98 -5727.75) scale(.28)" patternUnits="userSpaceOnUse" viewBox="0 0 9.52 9.52">
-                                                <g>
-                                                    <rect class="map_bg02_2" width="9.52" height="9.52" />
-                                                    <rect class="map_bg02_4" width="9.52" height="9.52" />
-                                                    <circle class="map_bg02_3" cx="4.76" cy="4.76" r="2.5" />
-                                                </g>
-                                            </pattern>
-                                        </defs>
-                                        <a <?php if ($group_field_modelhouse['gunma']['link']) : ?> href="<?php echo $group_field_modelhouse['gunma']['url']; ?>" class="<?= isset($group_field_modelhouse['gunma']['class1']) ? $group_field_modelhouse['gunma']['class1'] : ''; ?>" <?php endif; ?> target="_blank">
-                                            <g class="gunma">
-                                                <polygon class="map_bg01" points="0 95.69 0 1 163.15 1 163.15 95.69 0 95.69" />
-                                            </g>
-                                        </a>
-                                        <a <?php if ($group_field_modelhouse['tochigi']['link']) : ?> href="<?php echo $group_field_modelhouse['tochigi']['url']; ?>" class="<?= isset($group_field_modelhouse['tochigi']['class1']) ? $group_field_modelhouse['tochigi']['class1'] : ''; ?>" <?php endif; ?> target="_blank">
-                                            <g class="tochigi">
-                                                <polygon class="map_bg01" points="175.95 95.69 175.95 1 325.18 1 325.18 95.69 175.95 95.69" />
-                                            </g>
-                                        </a>
-                                        <a <?php if ($group_field_modelhouse['saitama']['link']) : ?> href="<?php echo $group_field_modelhouse['saitama']['url']; ?>" class="<?= isset($group_field_modelhouse['saitama']['class1']) ? $group_field_modelhouse['saitama']['class1'] : ''; ?>" <?php endif; ?> target="_blank">
-                                            <g class="saitama">
-                                                <polygon class="map_bg01" points="0 173.28 0 104.7 325.18 104.7 325.18 173.28 0 173.28" />
-                                            </g>
-                                        </a>
-                                        <a <?php if ($group_field_modelhouse['tokyo']['link']) : ?> href="<?php echo $group_field_modelhouse['tokyo']['url']; ?>" class="<?= isset($group_field_modelhouse['tokyo']['class1']) ? $group_field_modelhouse['tokyo']['class1'] : ''; ?>" <?php endif; ?> target="_blank">
-                                            <g class="tokyo">
-                                                <polygon class="map_bg01" points="97.01 248.12 61.03 182.04 325.18 182.04 325.18 248.12 97.01 248.12" />
-                                            </g>
-                                        </a>
-                                        <a <?php if ($group_field_modelhouse['kanagawa']['link']) : ?> href="<?php echo $group_field_modelhouse['kanagawa']['url']; ?>" class="<?= isset($group_field_modelhouse['kanagawa']['class1']) ? $group_field_modelhouse['kanagawa']['class1'] : ''; ?>" <?php endif; ?> target="_blank">
-                                            <g class="kanagawa">
-                                                <path class="map_bg01" d="m254.78,328.9v-12.81c0-4.14-4.29-7.5-9.59-7.5h-87.13c-5.24,0-9.5,3.28-9.59,7.38l-.26,12.93h-51.49l.27-72.01h228.19v72.01h-70.4Z" />
-                                            </g>
-                                        </a>
-                                        <a <?php if ($group_field_modelhouse['chiba']['link']) : ?> href="<?php echo $group_field_modelhouse['chiba']['url']; ?>" class="<?= isset($group_field_modelhouse['chiba']['class1']) ? $group_field_modelhouse['chiba']['class1'] : ''; ?>" <?php endif; ?> target="_blank">
-                                            <g class="chiba">
-                                                <path class="map_bg01" d="m380.29,340.68v-83.78c0-4.1-4.2-7.43-9.44-7.5l-36.06-.43v-107.94h200.68l-10.96,19.61c-.37.67-.62,1.37-.73,2.1l-14.82,95.12c-.05.3-.07.6-.07.91v81.91h-128.6Z" />
-                                            </g>
-                                        </a>
-                                        <a <?php if ($group_field_modelhouse['ibaraki']['link']) : ?> href="<?php echo $group_field_modelhouse['ibaraki']['url']; ?>" class="<?= isset($group_field_modelhouse['ibaraki']['class1']) ? $group_field_modelhouse['ibaraki']['class1'] : ''; ?>" <?php endif; ?> target="_blank">
-                                            <g class="ibaraki">
-                                                <path class="map_bg01" d="m334.8,132.01V1h168.35v82.42c0,1.53.59,2.96,1.6,4.15l29.59,44.45h-199.54Z" />
-                                            </g>
-                                        </a>
-                                        <text class="map_txt" transform="translate(28.23 53.88)">群馬エリア</text>
-                                        <?php if ($group_field_modelhouse['gunma']['link']) : ?>
-                                            <path class="map_icon" d="m118.8,53.92h12.28v-5.32h1.23v6.55h-14.74v-14.74h6.55v1.23h-5.32v12.28Zm7.78-12.28v-1.23h5.73v5.73h-1.23v-3.6l-7.37,7.29-.82-.82,7.29-7.37h-3.6Z" /><?php endif; ?>
-                                        <text class="map_txt" transform="translate(202.87 53.88)">栃木エリア</text>
-                                        <?php if ($group_field_modelhouse['tochigi']['link']) : ?>
-                                            <path class="map_icon" d="m292.03,53.92h12.28v-5.32h1.23v6.55h-14.74v-14.74h6.55v1.23h-5.32v12.28Zm7.78-12.28v-1.23h5.73v5.73h-1.23v-3.6l-7.37,7.29-.82-.82,7.29-7.37h-3.6Z" /><?php endif; ?>
-                                        <text class="map_txt" transform="translate(108.38 145.51)">埼玉エリア</text>
-                                        <?php if ($group_field_modelhouse['saitama']['link']) : ?>
-                                            <path class="map_icon" d="m199.85,146h12.28v-5.32h1.23v6.55h-14.74v-14.74h6.55v1.23h-5.32v12.28Zm7.78-12.28v-1.23h5.73v5.73h-1.23v-3.6l-7.37,7.29-.82-.82,7.29-7.37h-3.6Z" /><?php endif; ?>
-                                        <text class="map_txt" transform="translate(152.09 220.57)">東京エリア</text>
-                                        <?php if ($group_field_modelhouse['tokyo']['link']) : ?>
-                                            <path class="map_icon" d="m243.53,220.57h12.28v-5.32h1.23v6.55h-14.74v-14.74h6.55v1.23h-5.32v12.28Zm7.78-12.28v-1.23h5.73v5.73h-1.23v-3.6l-7.37,7.29-.82-.82,7.29-7.37h-3.6Z" /><?php endif; ?>
-                                        <text class="map_txt" transform="translate(144.87 289.59)">神奈川エリア</text>
-                                        <?php if ($group_field_modelhouse['kanagawa']['link']) : ?>
-                                            <path class="map_icon" d="m251.43,289.64h12.28v-5.32h1.23v6.55h-14.74v-14.74h6.55v1.23h-5.32v12.28Zm7.78-12.28v-1.23h5.73v5.73h-1.23v-3.6l-7.37,7.29-.82-.82,7.29-7.37h-3.6Z" /><?php endif; ?>
-                                        <text class="map_txt" transform="translate(376.76 217.95)">千葉エリア</text>
-                                        <?php if ($group_field_modelhouse['chiba']['link']) : ?>
-                                            <path class="map_icon" d="m466.16,218.52h12.28v-5.32h1.23v6.55h-14.74v-14.74h6.55v1.23h-5.32v12.28Zm7.78-12.28v-1.23h5.73v5.73h-1.23v-3.6l-7.37,7.29-.82-.82,7.29-7.37h-3.6Z" /><?php endif; ?>
-                                        <text class="map_txt" transform="translate(368.84 73.05)">茨城エリア</text>
-                                        <?php if ($group_field_modelhouse['ibaraki']['link']) : ?>
-                                            <path class="map_icon" d="m458.79,73.55h12.28v-5.32h1.23v6.55h-14.74v-14.74h6.55v1.23h-5.32v12.28Zm7.78-12.28v-1.23h5.73v5.73h-1.23v-3.6l-7.37,7.29-.82-.82,7.29-7.37h-3.6Z" /><?php endif; ?>
-                                    </svg>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- <h2 id="modelhouse_showroom" class="ff_smin blue">お近くのショールームへお越しください</h2>
+                <?php get_template_part('parts-lot-showrooms'); ?>
+<!-- <h2 id="modelhouse_showroom" class="ff_smin blue">お近くのショールームへお越しください</h2>
                         <ul class="showroom_list">
                             <li>
                                 <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/common/images/modelhouse_shop01.jpg" alt="本社ショールーム"></div>
@@ -818,52 +605,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             </li>
 
                         </ul> -->
-                    </div>
-                </section>
 
-                <section id="catalog">
-                    <div class="inner">
-                        <h2 class="ff_smin blue">カタログダウンロード</h2>
-                        <p class="lead">グラファーレの分譲土地付住宅・マイセレクトの最新カタログをダウンロードいただけます。</p>
-                        <?php
-                        $group_field_myselect = get_field('myselect');
-                        ?>
-                        <ul class="catalog_list">
-                            <li>
-                                <div class="img"><img src="<?php echo $group_field_myselect['img1']; ?>" alt="マイセレクトとは"></div>
-                                <p class="name ff_smin blue"><?php echo $group_field_myselect['title1']; ?></p>
-                                <p class="note"><?php echo $group_field_myselect['copy1']; ?></p>
-                                <p class="btn"><a href="<?php echo $group_field_myselect['pdf1']; ?>" target="_blank" class="pdf gtm-catalog-download"><span>ダウンロードする</span></a></p>
-                            </li>
-                            <li>
-                                <div class="img"><img src="<?php echo $group_field_myselect['img2']; ?>" alt="アンケート"></div>
-                                <p class="name ff_smin blue"><?php echo $group_field_myselect['title2']; ?></p>
-                                <p class="note"><?php echo $group_field_myselect['copy2']; ?></p>
-                                <p class="btn"><a href="<?php echo $group_field_myselect['pdf2']; ?>" target="_blank" class="pdf gtm-catalog-download"><span>ダウンロードする</span></a></p>
-                            </li>
-                        </ul>
-                        <ul class="catalog_list">
-                            <li>
-                                <div class="img"><img src="<?php echo $group_field_myselect['img3']; ?>" alt="マンガでわかるマイセレクト"></div>
-                                <p class="name ff_smin blue"><?php echo $group_field_myselect['title3']; ?></p>
-                                <p class="note"><?php echo $group_field_myselect['copy3']; ?></p>
-                                <p class="btn"><a href="<?php echo $group_field_myselect['pdf3']; ?>" target="_blank" class="pdf gtm-catalog-download"><span>ダウンロードする</span></a></p>
-                            </li>
-                            <li>
-                                <div class="img"><img src="<?php echo $group_field_myselect['img4']; ?>" alt="デザインブック"></div>
-                                <p class="name ff_smin blue"><?php echo $group_field_myselect['title4']; ?></p>
-                                <p class="note"><?php echo $group_field_myselect['copy4']; ?></p>
-                                <p class="btn"><a href="<?php echo $group_field_myselect['pdf4']; ?>" target="_blank" class="pdf gtm-catalog-download"><span>ダウンロードする</span></a></p>
-                            </li>
-                            <li>
-                                <div class="img"><img src="<?php echo $group_field_myselect['img5']; ?>" alt="住宅性能-住まいの通信簿-"></div>
-                                <p class="name ff_smin blue"><?php echo $group_field_myselect['title5']; ?></p>
-                                <p class="note"><?php echo $group_field_myselect['copy5']; ?></p>
-                                <p class="btn"><a href="<?php echo $group_field_myselect['pdf5']; ?>" target="_blank" class="pdf gtm-catalog-download"><span>ダウンロードする</span></a></p>
-                            </li>
-                        </ul>
-                    </div>
-                </section>
+                <?php get_template_part('parts-lot-catalog'); ?>
 
                 <section id="quality">
                     <div class="inner">
@@ -888,58 +631,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                 </section>
 
-                <section id="customhome_catalog">
-                    <div class="inner">
-                        <div class="flex">
-                            <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/common/images/customhome_catalog_img01.png" alt=""></div>
-                            <div class="box">
-                                <h2 class="ff_smin">もっと自由に、自分らしく<br>タクトホームの注文住宅で<br class="sp">憧れの暮らしを</h2>
-                                <p class="lead">タクトホームの注文住宅では、ご提案プランのカスタマイズから、フルオーダー建築まで、お客様にとって最適な住まいづくり実現できる体制を整えています。タクトホームだからできる、デザインと性能に優れた住まい。ぜひご検討ください。</p>
-                            </div>
-                        </div>
+                <?php get_template_part('parts-lot-order-catalog'); ?>
 
-                        <h3 class="ff_smin">注文住宅 カタログダウンロード</h3>
-                        <?php
-                        $group_field_customhome2 = get_field('customhome2');
-                        ?>
-                        <ul class="customhome_catalog_list">
-                            <li>
-                                <div class="img"><img src="<?php echo $group_field_customhome2['img1']; ?>" alt="タクトホームの注文住宅 総合パンフレット"></div>
-                                <p class="name">タクトホームの注文住宅<br>総合パンフレット</p>
-                                <p class="btn"><a href="<?php echo $group_field_customhome2['pdf1']; ?>" target="_blank" class="pdf gtm-catalog-download"><span>ダウンロードする</span></a></p>
-                            </li>
-                            <li>
-                                <div class="img"><img src="<?php echo $group_field_customhome2['img2']; ?>" alt="グラファーレのセレクト住宅 「G-fit」パンフレット"></div>
-                                <p class="name">グラファーレのセレクト住宅<br>「G-fit」パンフレット</p>
-                                <p class="btn"><a href="<?php echo $group_field_customhome2['pdf2']; ?>" target="_blank" class="pdf gtm-catalog-download"><span>ダウンロードする</span></a></p>
-                            </li>
-                        </ul>
-                    </div>
-                </section>
-
-                <section id="brand">
-                    <div class="inner">
-                        <h2 class="ff_smin blue">グラファーレブランド</h2>
-                        <ul class="brand_list">
-                            <li>
-                                <div class="img"><a href="https://www.tacthome.co.jp/lineup/grafare/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/common/images/brand_bnr01.jpg" alt="新築分譲住宅"></a></div>
-                                <p class="name"><a href="https://www.tacthome.co.jp/lineup/grafare/" target="_blank" class="blank"><span>新築分譲住宅</span></a></p>
-                            </li>
-                            <li>
-                                <div class="img"><a href="https://www.tacthome.co.jp/lineup/order/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/common/images/brand_bnr02.jpg" alt="注文住宅"></a></div>
-                                <p class="name"><a href="https://www.tacthome.co.jp/lineup/order/" target="_blank" class="blank"><span>注文住宅</span></a></p>
-                            </li>
-                            <li>
-                                <div class="img"><a href="https://www.tacthome.co.jp/lineup/MySelect-index/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/common/images/brand_bnr03.jpg" alt="マイセレクト（建築条件付売地）"></a></div>
-                                <p class="name"><a href="https://www.tacthome.co.jp/lineup/MySelect-index/" target="_blank" class="blank"><span>マイセレクト<br class="sp"><span class="fs80">（建築条件付売地）</span></span></a></p>
-                            </li>
-                            <li>
-                                <div class="img"><a href="https://www.tacthome.co.jp/saisei/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/common/images/brand_bnr04.jpg" alt="認定再生住宅"></a></div>
-                                <p class="name"><a href="https://www.tacthome.co.jp/saisei/" target="_blank" class="blank"><span>認定再生住宅</span></a></p>
-                            </li>
-                        </ul>
-                    </div>
-                </section>
+                <?php get_template_part('parts-lot-brand'); ?>
 
                 <div id="pagetop"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/common/images/btn_pagetop.png" alt="ページトップ"></a></div>
             </main>

@@ -45,9 +45,12 @@ function is_custom_template_page($temp) {
 
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/common/css/reset.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/common/css/style.css">
+    <?php if (preg_match('/^page-(myselect|sales)_(kanto|nagoya|nishinihon|kitanihon)\.php$/', get_page_template_slug())) : ?>
+      <link rel="stylesheet" href="<?php echo esc_url(get_template_directory_uri() . '/common/css/lot-updates.css?ver=' . filemtime(get_template_directory() . '/common/css/lot-updates.css')); ?>">
+    <?php endif; ?>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/common/js/util.js"></script>
-        <script src="<?php echo get_template_directory_uri(); ?>/common/js/top.js"></script>
+        <script src="<?php echo esc_url(get_template_directory_uri() . '/common/js/top.js?ver=' . filemtime(get_template_directory() . '/common/js/top.js')); ?>"></script>
 
     <script>
         document.createElement("picture");
