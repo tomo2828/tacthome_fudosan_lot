@@ -1,0 +1,10 @@
+{
+  "liveSassCompile.settings.autoprefix": [
+    "> 0.2%",
+    "last 4 versions",
+    "ie >= 10",
+    "Android >= 4.4",
+    "Safari 8",
+    "iOS 8.1-8.4"
+  ]
+}

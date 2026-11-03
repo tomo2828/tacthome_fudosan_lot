@@ -44,7 +44,7 @@ while (have_posts()) : the_post();
         get_header();
     ?>
 
-        <body class="lot_2026 myselect_nagoya">
+        <body class="myselect_nagoya">
 
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T59RR54"

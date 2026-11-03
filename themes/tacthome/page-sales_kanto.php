@@ -44,7 +44,7 @@ while (have_posts()) : the_post();
         get_header();
     ?>
 
-        <body id="property_page" class="lot_2026">
+        <body id="property_page">
 
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T59RR54"

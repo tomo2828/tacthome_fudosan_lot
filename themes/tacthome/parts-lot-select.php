@@ -93,7 +93,7 @@
     <div class="color_select">
       <h3 class="ff_smin">カラーセレクト</h3>
       <p class="lead">外装／内装のデザイン・カラーをお好みにコーディネートできます。<br>専任デザイナーが厳選したコーディネートパターンからお選びいただくことにより、<br class="pc">自由な組み合わせとまとまりのある、ご家族だけの住まいをスマートに実現できます。</p>
-      <div class="color_select_box">
+      <div class="color_select_box color_slider_list">
         <?php
         $color_groups = array(
           'exterior' => array('Exterior', 'ファサードデザイン', 'variations'),

@@ -2,7 +2,7 @@ $(function () {
   var nav = $('nav');
   var fixnav = $('#fix_nav');
   var main = $('main');
-  var isLotMyselect = $('body').hasClass('lot_2026') && main.hasClass('top');
+  var isLotMyselect = main.hasClass('top') && main.find('.color_slider').length > 0;
   var navH = nav.outerHeight() || 0;
   var navTop = 0;
 
