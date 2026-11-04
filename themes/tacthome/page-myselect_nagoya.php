@@ -322,17 +322,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <h2 id="modelhouse_showroom" class="ff_smin blue">名古屋エリア最大級のショールームへお越しください</h2>
                             <img src="<?php echo get_template_directory_uri(); ?>/common/images/myselect_nagoya_showroom.jpg" alt="モデルハウス・ショールーム">
                             <div class="flex wrap">
-                                <p class="note">タクトホーム名古屋ショールームは、エリア最大級の規模で、住宅設備や部材の展示から、プラン相談、土地探しや資金相談まで、住まいづくりのあらゆる疑問を楽しく、スムーズに解決いただけます。<br>広々駐車場、キッズルームや授乳室も完備、小さなお子様連れでもどうぞお気軽にお越しください！</p><br>
-                                <div>
-                                    <h3 class="ff_smin blue">タクトホーム　名古屋ショールーム</h3>
-                                    <p class="note address">〒465-0024　愛知県名古屋市名東区本郷1丁目1番<br>TEL:052-737-8717</p>
-                                    <div class="flex">
-                                        <p class="btn"><a href="https://www.tacthome.co.jp/order/nagoya-showroom/" target="_blank" class="blank"><span>名古屋ショールームページ</span></a></p>
-
-                                        <p class="btn"><a href="https://my.matterport.com/show/?m=rL6pQVgQDej&lang=jp&_fsi=YKkVHO2l" target="_blank" class="blank"><span>VRでショールーム見学</span></a></p>
-
-                                    </div>
-                                </div>
+                                <p class="note" style="width: 100%;">タクトホーム名古屋ショールームは、エリア最大級の規模で、住宅設備や部材の展示から、プラン相談、土地探しや資金相談まで、住まいづくりのあらゆる疑問を楽しく、スムーズに解決いただけます。<br>広々駐車場、キッズルームや授乳室も完備、小さなお子様連れでもどうぞお気軽にお越しください！</p><br>
                             </div>
                         </div>
                     </div>
@@ -345,13 +335,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <h2 class="ff_smin blue">グラファーレ品質のご紹介</h2>
                         <ul class="quality_list">
                             <li>
-                                <div class="img"><a href="https://www.tacthome.co.jp/contents/construction01/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/common/images/quality_bnr01.jpg" alt="地震に強い家"></a></div>
-                                <p class="ttl ff_smin blue"><a href="https://www.tacthome.co.jp/contents/construction01/" target="_blank" class="blank">地震に強い家</a></p>
+                                <div class="img"><a href="https://www.tacthome.co.jp/grafare/construction01/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/common/images/quality_bnr01.jpg" alt="地震に強い家"></a></div>
+                                <p class="ttl ff_smin blue"><a href="https://www.tacthome.co.jp/grafare/construction01/" target="_blank" class="blank">地震に強い家</a></p>
                                 <p class="note">分譲住宅で全棟採用「地震に強い家」<br>IDS工法×住宅性能評価/最高等級6項目</p>
                             </li>
                             <li>
-                                <div class="img"><a href="https://www.tacthome.co.jp/contents/construction02/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/common/images/quality_bnr02.jpg" alt="グラファーレのデザインと性能"></a></div>
-                                <p class="ttl ff_smin blue"><a href="https://www.tacthome.co.jp/contents/construction02/" target="_blank" class="blank">グラファーレのデザインと性能</a></p>
+                                <div class="img"><a href="https://www.tacthome.co.jp/grafare/construction02/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/common/images/quality_bnr02.jpg" alt="グラファーレのデザインと性能"></a></div>
+                                <p class="ttl ff_smin blue"><a href="https://www.tacthome.co.jp/grafare/construction02/" target="_blank" class="blank">グラファーレのデザインと性能</a></p>
                                 <p class="note">「洗練されたデザイン」でありながら、<br>「地震に強く頑丈で高性能な住宅」をご提供</p>
                             </li>
                             <li>

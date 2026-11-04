@@ -3241,10 +3241,13 @@ footer {
       ul.bnr_list {
         width: 90%;
         margin: 0 auto;
+            justify-content: center;
+            gap: 20px;
 
         li {
           width: 31%;
           max-width: none;
+          margin: 0;
         }
       }
     }

@@ -615,13 +615,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <h2 class="ff_smin blue">グラファーレ品質のご紹介</h2>
                         <ul class="quality_list">
                             <li>
-                                <div class="img"><a href="https://www.tacthome.co.jp/contents/construction01/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/common/images/quality_bnr01.jpg" alt="地震に強い家"></a></div>
-                                <p class="ttl ff_smin blue"><a href="https://www.tacthome.co.jp/contents/construction01/" target="_blank" class="blank">地震に強い家</a></p>
+                                <div class="img"><a href="https://www.tacthome.co.jp/grafare/construction01/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/common/images/quality_bnr01.jpg" alt="地震に強い家"></a></div>
+                                <p class="ttl ff_smin blue"><a href="https://www.tacthome.co.jp/grafare/construction01/" target="_blank" class="blank">地震に強い家</a></p>
                                 <p class="note">分譲住宅で全棟採用「地震に強い家」<br>IDS工法×住宅性能評価/最高等級6項目</p>
                             </li>
                             <li>
-                                <div class="img"><a href="https://www.tacthome.co.jp/contents/construction02/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/common/images/quality_bnr02.jpg" alt="グラファーレのデザインと性能"></a></div>
-                                <p class="ttl ff_smin blue"><a href="https://www.tacthome.co.jp/contents/construction02/" target="_blank" class="blank">グラファーレのデザインと性能</a></p>
+                                <div class="img"><a href="https://www.tacthome.co.jp/grafare/construction02/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/common/images/quality_bnr02.jpg" alt="グラファーレのデザインと性能"></a></div>
+                                <p class="ttl ff_smin blue"><a href="https://www.tacthome.co.jp/grafare/construction02/" target="_blank" class="blank">グラファーレのデザインと性能</a></p>
                                 <p class="note">「洗練されたデザイン」でありながら、<br>「地震に強く頑丈で高性能な住宅」をご提供</p>
                             </li>
                             <li>
